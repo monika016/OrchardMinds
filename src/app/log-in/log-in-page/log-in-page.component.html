@@ -1,0 +1,29 @@
+
+<div class="container">
+<form [formGroup]="logInForm">
+  <table>
+    <tr>
+      <td colspan="2" style="text-align:center; font-weight:800; font-size:17px;"> LOG IN 
+      </td>
+    </tr>
+
+
+
+  <tr> 
+    <td>MID :</td>
+    <td><input type="text" formControlName="mid" name="mid"></td> 
+  </tr>
+
+  <tr> 
+    <td>PASSWORD :</td>
+    <td><input type="PASSWORD" formControlName="password" name="mid"></td> 
+  </tr>
+
+  <tr> 
+    <td><input type="button" (click)="logIn()" name="mid" value="SUBMIT"></td>
+    <td><input type="button" name="mid" value="RESET"></td> 
+  </tr>  
+  </table>
+
+</form>
+</div>

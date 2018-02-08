@@ -1,0 +1,52 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+
+    <ul class="nav navbar-nav">
+      <li><a routerLink="campus-minds" (click)="clickFunction()">LEAD</a></li>
+      <li><a routerLink="">LOG-IN</a></li>
+      <li><a routerLink="capabilities">CAPABILITIES</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<!--<div *ngIf="lead==false"> not for campus mind
+  </div>-->
+
+<!--<div *ngIf="lead==true"> 
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li class="active"><a routerLink="campus-minds">Campus Minds</a></li>
+<li><a routerLink="capabilities">Capabilities</a></li>
+      </ul>
+    </div>
+  </nav>
+  </div>-->
+<router-outlet></router-outlet>
+
+
+<!--
+<div class="container">
+<form [formGroup]="logInForm">
+  <table>
+  <tr> 
+    <td>MID :</td>
+    <td><input type="text" formControlName="mid" name="mid"></td> 
+  </tr>
+
+  <tr> 
+    <td>PASSWORD :</td>
+    <td><input type="PASSWORD" formControlName="password" name="mid"></td> 
+  </tr>
+
+  <tr> 
+    <td><input type="button" (click)="logIn()" name="mid" value="SUBMIT"></td>
+    <td><input type="button" name="mid" value="RESET"></td> 
+  </tr>
+<!--(click)="logIn()"-->
+<!--
+  </table>
+
+</form>
+</div>-->

@@ -1,0 +1,22 @@
+<div class="container">
+  <table>
+    <tr class="capabilityHead">
+      <td colspan="1" class="rightCol" >Capability Id :</td>
+        <td colspan="3" class="KO" style="text-align:left;">{{item.capabilityId}}</td>
+    </tr>
+
+    <tr>
+      <td style="font-weight:800; width: max-content;" class="rightCol">Capability name :</td>
+      <td colspan="3">{{item.capabilityName}}</td>
+    </tr>
+    <tr  *ngFor="let it of item.KOs">
+      <td class="rightCol" style="font-weight:800;">KO :</td>
+      <td>{{it.KO}}</td>
+      <td class="KO">Status :</td>
+      <td class="KOS">{{it.Status}}</td>
+
+    </tr>
+
+
+  </table>
+</div>

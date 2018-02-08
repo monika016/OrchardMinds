@@ -1,0 +1,39 @@
+[{
+  "capabilityId": "1",
+  "capabilityName": "Use Spring MVC framework to implement presentation layer of an application",
+  "KOs": [{
+      "KO": "Ability to define and use Spring framework components - Spring core, MVC, JDBC, Hibernate with XML and annotations",
+      "Status": "no"
+    },
+    {
+      "KO": "Ability to configure the latest Java Spring MVC 4.x applications in Java Enterprise Environments",
+      "Status": "no"
+    },
+    {
+      "KO": "Ability define and configure Model, Controller and View layers in Java Spring Framework 4.x",
+      "Status": "no"
+    }
+  ]
+},
+{
+  "capabilityId": "2",
+  "capabilityName": "Use Java to implement business layer of your application",
+  "KOs": [{
+      "KO": "Ability to develop solutions using OOP principles",
+      "Status": "No"
+    },
+    {
+      "KO": "Ability to follow best practices while handling exceptions",
+      "Status": "No"
+    },
+    {
+      "KO": "Ability to choose appropriate collection classes and managing",
+      "Status": "No"
+    },
+    {
+      "KO": "The objects stored in collections are iterated as per the requirements in the problem statement?",
+      "Status": "No"
+    }
+  ]
+}
+]

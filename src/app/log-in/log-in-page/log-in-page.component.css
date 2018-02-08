@@ -1,0 +1,48 @@
+.container {
+  border: 2px solid black;
+  width: 450px;
+  height: auto;
+  padding: 50px;
+  animation: enter 2s;
+  position: absolute;
+  left: 450px;
+  top: 100px;
+
+}
+
+
+
+@keyframes enter {
+    0%{
+        top: 0;
+        opacity: 0.3;
+    }
+    50%{
+        top: 110px;
+        opacity: .5;
+    }
+    100%
+    {
+        top: 100px;
+        opacity: 1;
+    }
+}
+
+td {
+  width: 120px;
+  height: 40px;
+  text-align: center;
+}
+
+input[type=text],
+input[type=password] {
+  outline: none;
+  border-style: none;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+input:focus {
+  border-bottom: 1px solid grey;
+}
+
